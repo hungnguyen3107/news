@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">NewsCast MB</string>
+    <string name="tab_latest">Latest</string>
+    <string name="tab_business">Business</string>
+    <string name="tab_entertainment">Entertainment</string>
+    <string name="tab_health">Health</string>
+    <string name="tab_science">Science</string>
+    <string name="tab_sports">Sports</string>
+    <string name="tab_technology">Technology</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="search">Search</string>
+    <string name="no_bookmark_save_placeholder">No Article is bookmarked</string>
+    <string name="no_article_bookmarked_placeholder">No Article is bookmarked</string>
+    <string name="trending">Trending</string>
+    <string name="headlines">Headlines</string>
+    <string name="bookmarks">Bookmarks</string>
+    <string name="sources">Sources</string>
+    <string name="article_bookmarked">Article bookmarked successfully</string>
+    <string name="bookmark">Bookmark</string>
+    <string name="share">Share</string>
+    <string name="settings">Settings</string>
+
+</resources>
