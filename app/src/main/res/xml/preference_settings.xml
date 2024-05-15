@@ -1,0 +1,36 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <PreferenceCategory app:title="Theme">
+
+        <DropDownPreference
+            android:title="App Theme"
+            android:icon="@drawable/theme_icon24px"
+            android:key="theme"
+            android:defaultValue="FOLLOW_SYSTEM"
+            android:entries="@array/theme_entries"
+            android:entryValues="@array/theme_values"
+            app:useSimpleSummaryProvider="true"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="About">
+
+        <Preference
+            app:key="activity"
+            app:title="Open Source Project">
+
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/MubarakNative/News-Cast-MB"/>
+        </Preference>
+
+        <Preference
+            app:key="license"
+            app:title="Version"
+            app:summary="1.0.0"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
